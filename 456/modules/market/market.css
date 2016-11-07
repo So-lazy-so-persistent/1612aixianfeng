@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background-color: #efefef;
+}
+header{
+	width: 100%;
+	height: 58px;
+	background-color: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e0e0e0;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+}
+.headerLeft{
+	width: 12%;
+	height: 100%;
+	background: url(../../images/left1.png) no-repeat 18px center;
+    background-size: 53%;
+}
+.headerRight{
+	width: 12%;
+	height: 100%;
+}
+.headerCenter{
+	line-height: 58px;
+	height: 58px;
+	font-size: 1.2rem;
+	font-weight:600;
+	color: #333;
+}
+nav{
+	width: 100%;
+	height: 180px;
+	padding:.8rem 0;
+	background-color: #fff;
+	margin-top: 58px;
+}
+main{
+	width: 100%;
+	height: 86px;
+	background-color: #fff;
+}
+.wait{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 13%;
+	color: #999;
+	box-sizing: border-box;
+	border-top: .5px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+}
+.wait1{
+	background: url(../../images/11.png) no-repeat center 1rem;  
+	background-size: 23%;
+}
+.wait2{
+	background: url(../../images/22.png) no-repeat center 1rem;
+	background-size: 23%;
+}
+.wait3{
+	background: url(../../images/33.png) no-repeat center 1rem;
+    background-size: 23%;
+    border-right: none;
+}
+footer{
+	width: 100%;
+	height: 380px;
+	background-color: #fff;
+	margin:.8rem 0;
+}
+.ma{
+	width: 50%;
+	height: 190px;
+	float: left;
+	padding-top: 31%;
+	padding-left: .75rem;
+	box-sizing: border-box;
+	line-height: 1.7rem;
+	color: #333;
+}
+.ma>span{
+	color: #e64f1a;
+	display: block;
+	line-height: 2.3rem;
+}
+.ma1{
+	background: url(../../images/111.jpg) no-repeat center 1rem;  
+	background-size: 100%;
+	border-right: 1px solid #e0e0e0;
+}
+.ma2{
+	background: url(../../images/222.jpg) no-repeat center 1rem;
+	background-size: 100%;
+}
+.ma3{
+	background: url(../../images/333.jpg) no-repeat center 1rem;
+    background-size: 100%;
+	border-top: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+}
+.ma4{
+	background: url(../../images/444.jpg) no-repeat center 1rem;
+    background-size: 100%;
+	border-top: 1px solid #e0e0e0;
+}

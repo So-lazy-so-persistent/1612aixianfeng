@@ -1,0 +1,303 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background-color: #efefef;
+}
+header{
+	width: 100%;
+	height: 58px;
+	background-color: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e0e0e0;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+}
+.headerLeft{
+	width: 15%;
+	height: 100%;
+	background: url(../../images/left1.png) no-repeat 9px center;
+    background-size: 53%;
+}
+.headerRight{
+	width: 15%;
+	height: 100%;
+	background: url(../../images/right1.png) no-repeat 22px center;
+    background-size: 53%;
+}
+.headerCenter{
+	line-height: 58px;
+	height: 58px;
+	font-size: 1.15rem;
+	font-weight:600;
+	color: #333;
+}
+nav{
+	margin-top: 58px;
+}
+.nav1{
+	width: 100%;
+	height: 181px;
+	background-color: #fff;
+	background: url(../../images/crazy.jpg) no-repeat center;
+    background-size: 100%;
+}
+.nav2{
+	width: 100%;
+	height: 90.5px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #efefef;
+}
+.abcd{
+	width: 24.82%;
+	height: 100%;
+	background-color: #272c2a;
+	color: #fff;
+	text-align: center;
+	line-height: 25px;
+	padding:.4rem 0;
+	box-sizing: border-box;
+}
+.abcd p:first-child{
+	font-size: 1.2rem;
+}
+.abcd p:last-child{
+	font-size: 1.05rem;
+}
+.a{
+	background-color: #fdd000;
+	color: black;
+}
+.a>div{
+	background: url(../../images/0.png) no-repeat;
+    background-size: 300%;
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+}
+.b>div{
+	background: url(../../images/0.png) no-repeat right ;
+    background-size: 300%;
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+}
+.c>div{
+	background: url(../../images/0.png) no-repeat right ;
+    background-size: 300%;
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+}
+.d>div{
+	background: url(../../images/0.png) no-repeat right ;
+    background-size: 300%;
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+}
+.nav3{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.over{
+	width: 30%;
+	height: 100%;
+	background-color: #fdd000;
+	font-size: 1rem;
+	text-align: center;
+	position: relative;
+}
+.over>span{
+	display:inline-block;
+    width:0;
+    height:0;
+    border-width:20px 0 20px 12px;
+    border-style:solid;
+    border-color:transparent transparent transparent #fdd000;/*透明 透明 透明 黄*/
+    position:absolute;
+    top:0;
+    left:100%;
+}
+.rule{
+	width: 30%;
+	height: 100%;
+	margin:6px 0;
+}
+.rule>p{
+	line-height: 28px;
+	height: 28px;
+	background-color: black;
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	font-size: .9rem;
+}
+
+
+
+
+
+main{
+	width: 100%;
+}
+.main_wrap{
+	width: 100%;
+}
+.main1{
+	width: 100%;
+	height:194px;
+	background-color: #fff;
+	display: flex;
+	border-bottom: .4rem solid #efefef;
+}
+.photo{
+	width: 45%;
+	background: url(http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q) no-repeat center ;
+    background-size: 100%;
+    border-right: 1px solid #e0e0e0;
+}
+.word{
+	padding-left: 6%;
+	padding-top: 5%;
+}
+.word>p{
+	line-height: 2rem;
+	font-size: 1.1rem;
+	color: rgb(51, 51, 51);
+}
+.word>p>span{
+	font-size: 2rem;
+	color: #ff602c;
+	font-weight: 600;
+}
+.word>p>span>span{
+	font-size: 1rem;
+	color: #ff602c;
+}
+.word p:nth-child(3){
+	color: #979697;
+}
+.h{
+	height: 38.8px;
+	text-align: center;
+	color: #fff;
+	border-radius: 19px;
+	line-height: 38.8px;
+}
+.hh{
+	background-color: #ff602c;
+}
+.hhh{
+	background-color: #aaa;
+}
+.mainCenter{
+	width: 100%;
+	color: rgb(51, 51, 51);
+}
+.mainCenter>p{
+	width: 100%;
+	height: 40px;
+	background: url(../../images/heng.png) no-repeat bottom ;
+    background-size: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.mainCenter>p>span{
+	width: .4rem;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    background-color: #fdd000;
+}
+.mainlist{
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.listdiv{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.product{
+	width: 49.3%;
+	background-color: #fff; 
+	height: 275px;
+	margin-bottom: 10px;
+}
+.mlik{
+	height: 193px;
+	width: 100%;
+	background: url(http://img01.bqstatic.com/upload/goods/000/001/2047/0000012047_20190.jpg@355w_355h_90Q) no-repeat;
+	background-size: 100%;
+	border-bottom: 1px dashed #e7e7e7;
+}
+.product{
+	position: relative; 
+}
+.product>p{
+	line-height: 25px;
+	font-size: .9rem;
+	padding-left: 5px;
+	color: #333;
+}
+.product p:nth-of-type(3){
+	color: #fc1400;
+}
+.product p:nth-of-type(3) span{
+	color: #929292;
+	text-decoration: line-through;
+	margin-left: 4px;
+}
+.add {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    border: 1px solid #999;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.8rem;
+  	right: 8px;
+	bottom: 10px;
+    background-color: #fff;
+    color: #fc1400;
+}
+main>ul{
+	width: 75%;
+    margin: 0 auto;
+    padding: 20px 0 40px 20px;
+    list-style: none;
+}
+main>ul>li{
+	list-style: decimal outside;
+    color: #595757;
+    font-size: 13px;
+}
+footer{
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	bottom: .5rem;
+	right: .5rem;
+	background: url(../../images/car.png) no-repeat center;
+	background-size: 80%;
+	background-color: #ffd600;
+	border:3px solid #fff;
+}

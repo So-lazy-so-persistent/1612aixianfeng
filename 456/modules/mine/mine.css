@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background-color: #efefef;
+}
+.mineBox header{
+	height: 174px;
+	width: 100%;
+	background-color: #ffd600;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+}
+.mineBox .headerTop{
+	height: 129px;
+	width: 100%;
+	background: url(../../images/my.png) no-repeat 1.4rem center;
+	background-size: 19%;
+	position: relative;
+}
+.mineBox .phone{
+	width: 80%;
+	height: 100%;
+	margin-left: 29%;
+	padding-top: 6%;
+	box-sizing: border-box;
+	position: relative;
+}
+.mineBox .num{
+	line-height: 19px;
+	margin: 9px 0;
+	font-size: 1.25rem;
+	color: #fff;
+	font-weight: 700;
+}
+.mineBox .phone>img{
+	height: 2.25rem;
+	width: 6.5rem;
+	position: absolute;
+}
+.mineBox .vip{
+	font-size: .88rem;
+	padding-left: 1.7rem;
+	line-height: 3rem;
+	color: red;
+	top: 43%;
+    left: 2%;
+	position: absolute;
+}	
+.mineBox .headerTop>img{
+	position: absolute;
+	right: 6%;
+    top: 41%;
+    width: 1rem;
+    height: 1.5rem;
+}
+.mineBox .headerBottom{
+	height: 45px;
+	width: 100%;
+	background-color:#f3c800;
+	color: #fff;
+}
+.mineBox .colle1{
+	height: 100%;
+	line-height: 32px;
+	width: 50%;
+	background: url(../../images/colle1.png) no-repeat 3.5rem .7rem;
+	background-size:12%;
+	float: left;
+	padding:.5rem 0;
+	box-sizing: border-box;
+}
+.mineBox .colle1>p{
+	padding-left: 6rem;
+	border-right: 1px solid #fff;
+}
+.mineBox .colle2{
+	height: 100%;
+	line-height: 32px;
+	width: 50%;
+	background: url(../../images/colle2.png) no-repeat  3.5rem .7rem;
+	background-size:12%;
+	float: left;
+	padding:.5rem 0;
+	box-sizing: border-box;
+}
+.mineBox .colle2>p{
+	padding-left: 6rem;
+}
+.mineBox nav{
+	width: 100%;
+	margin-top: 174px;
+}
+.mineBox .one{
+	padding:18px 32px 18px 19px;
+	height: 63px;
+	width: 100%;
+	background-color: #fff;
+	margin-top:190px;
+	margin-bottom: 2px;
+	font-size: 1.1rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.mineBox .one>p{
+	line-height: 27px;
+}
+.mineBox .one>p>span{
+	color: #999;
+	float: right;
+}
+.mineBox .one>img{
+	position: absolute;
+    right: -2%;
+    top: 38%;
+    width: 2rem;
+    height: 1rem;
+}
+.mineBox .two{
+	width: 100%;
+	height: 91px;
+	background-color: #fff;
+	margin-bottom: .8rem;
+}
+.mineBox .wait{
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 13%;
+	color: #333;
+	box-sizing: border-box;
+}
+.mineBox .wait1{
+	background: url(../../images/wait1.png) no-repeat center 1rem;  
+	background-size: 25%;
+}
+.mineBox .wait2{
+	background: url(../../images/wait2.png) no-repeat center 1rem;
+	background-size: 25%;
+}
+.mineBox .wait3{
+	background: url(../../images/wait3.png) no-repeat center 1rem;
+    background-size: 25%;
+}
+.mineBox .wait4{
+	background: url(../../images/wait4.png) no-repeat center 1rem;
+    background-size: 25%;
+}
+.mineBox .three{
+	width: 100%;
+	height: 253px;
+	background-color: #fff;
+}
+.mineBox .our{
+	height: 127px;
+	width: 25%;
+	float: left;
+	border-bottom: 2px solid #efefef;
+	text-align: center;
+	padding-top: 18%;
+	color: #333;
+	box-sizing: border-box;
+}
+.mineBox .our1{
+	background:#fff url(../../images/our1.png) no-repeat center 2rem;
+    background-size: 40%;
+}
+.mineBox .our2{
+	background:#fff url(../../images/our2.png) no-repeat center 2rem;
+    background-size: 40%;
+}
+
+.mineBox .our3{
+	background:#fff url(../../images/our3.png) no-repeat center 2rem;
+    background-size: 40%;
+}
+
+.mineBox .our4{
+	background:#fff url(../../images/our4.png) no-repeat center 2rem;
+    background-size: 40%;
+}
+.mineBox .our5{
+	background:#fff url(../../images/our5.png) no-repeat center 2rem;
+    background-size: 40%;
+}
+.mineBox .four{
+	width: 100%;
+	height: 58px;
+	background-color: #fff;
+	margin-top: 2.4rem;
+	text-align: center;
+	line-height: 58px;
+	font-size: 1.1rem;
+	margin-bottom: 70px;
+}

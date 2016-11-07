@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background-color: #efefef;
+}
+header{../../
+	width: 100%;
+	height: 58px;
+	background-color: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+}
+.headerLeft{
+	width: 15%;
+	height: 100%;
+	background: url(../../images/left1.png) no-repeat 18px center;
+    background-size: 53%;
+}
+.headerRight{
+	width: 15%;
+	height: 100%;
+	background: url(../../images/right1.png) no-repeat 18px center;
+    background-size: 53%;
+}
+.headerCenter{
+	line-height: 58px;
+	height: 58px;
+	font-size: 1.15rem;
+	font-weight:600;
+	color: #333;
+}
+nav{
+	height: 54px;
+	width: 100%;
+	background-color: #fff;
+	padding:0 0.75rem;
+	display: flex;
+	box-sizing: border-box;
+}
+nav>div{
+	width: 25%;
+	height: 100%;
+	line-height:54px;
+	text-align: center;
+}
+nav div:first-child{
+	color: #ff3800;
+}
+main{
+	width: 100%;
+	background: url(../../images/center.png) no-repeat 10rem 6rem;
+    background-size: 26%;
+}
+main>p{
+	padding-top: 13.5rem;
+    padding-left: 10.5rem;
+}

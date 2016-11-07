@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background-color: #efefef;
+}
+header{
+	width: 100%;
+	height: 58px;
+	background-color: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .7rem;
+}
+.headerLeft{
+	width: 15%;
+	height: 100%;
+	background: url(../../images/left1.png) no-repeat 10px center;
+    background-size: 53%;
+}
+.headerRight{
+	width: 15%;
+	height: 100%;
+}
+.headerCenter{
+	line-height: 58px;
+	height: 58px;
+	font-size: 1.15rem;
+	font-weight:600;
+	color: #333;
+}
+nav{
+	width: 100%;
+	background-color: #fff;
+}
+.list{
+	height: 104px;
+	padding:20px 0 21px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.massage{
+	padding-left: 1rem;
+}
+.name{
+	color: black;
+	font-size: 1.2rem;
+	line-height: 36px;
+}
+.number{
+	line-height: 36px;
+	font-size: 1.2rem;
+	color: #999;
+}
+.name>span{
+	font-size: 1.1rem;
+	margin-left: .5rem;
+}
+.writeAdd{
+	width: 25%;
+	height: 100%;
+	background: url(../../images/write.png) no-repeat center;
+	background-size: 30%;
+	border-left: 1px solid #efefef;
+}
+.list>span{
+	display: inline-block;
+	width: 6px;
+	height: 85px;
+	background-color: #ffd600;
+	position: absolute;
+	left: 0;
+	top: .4rem;
+}
+main{
+	height: 65px;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+main>p{
+	height: 47px;
+	width: 60%;
+	background-color: #ffd600;
+	border-radius: 10px;
+	margin:9px auto;
+	text-align: center;
+	line-height: 47px;
+	font-size: 1.08rem;
+	color: #000;
+}

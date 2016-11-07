@@ -1,0 +1,51 @@
+<div class="orderBox">
+	<header>
+		<p>新鲜预订</p>
+	</header>
+	<nav>
+		<ul>
+			<li><span class="bottomSpan"></span>精选水果</li>
+			<li><span></span>直供蔬菜</li>
+			<li><span></span>水产海鲜</li>
+			<li><span></span>肉禽类</li>
+			<li><span></span>乳品烘焙</li>
+			<li><span></span>熟食面点</li>
+			<li><span></span>粮油副食</li>
+			<li><span></span>酒水饮料</li>
+			<li><span></span>休闲零食</li>
+			<li><span></span>整箱购</li>
+		</ul>
+	</nav>
+	<main>
+		<div class="one">
+			<h4><span class="sport"></span>精选水果</h4>
+		</div>
+		<div class="two">
+			
+		</div>
+		<!-- <div class="main1">
+			<div class="photo"></div>
+			<div class="word">
+				<p>爱鲜蜂.百香果</p>
+				<p>120g 2粒/袋</p>
+				<p><span><span>￥</span>6.9</span></p>
+				<h3 class="h"></h3>
+			</div>
+		</div> -->
+		
+	</main>
+</div>	
+
+<script type="text/html" id="orderList">
+	<%for(var e in product){%>
+		<div class="main1">
+			<div class="photo" style="background: url('<%=product[e].img%>') no-repeat center; background-size: 80%;"></div>
+			<div class="word">
+				<p><%=product[e].name%></p>
+				<p><%=product[e].specifics%></p>
+				<p><span><span>￥</span><%=product[e].price%></span></p>
+				<h3 class="h"></h3>
+			</div>
+		</div>
+	<%}%>
+</script>

@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+	background-color: #efefef;
+}
+header{
+	height: 58px;
+	width: 100%;
+	line-height:56px;
+	background-color: #f9fafd;
+	margin-bottom: .7rem;
+	display: flex;
+	justify-content: space-around;
+}
+.leftLeft{
+	width: 15%;
+	background: url(../../images/left.gif) no-repeat 18px center;
+}
+header>form{
+	width:57%;
+	height: 33px;
+	float: left;
+	border:1px solid #ccc;
+	background: url(../../images/sousuo.png) no-repeat 7px center;
+	background-size: 6%;
+	position: relative;
+	top:12px;
+}
+.headerInput{
+	height: 32px;
+	width:87%;
+	position: absolute;
+	left: 13%;
+	border: none;
+	font-size: 1.1rem;
+	background-color: #f9fafd;
+}
+.sssss{
+	float: left;
+	font-size: 1.1rem;
+	margin-left: 3%;
+	color: #777;
+}
+main{
+	width: 100%;
+}
+main>ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 95%;
+	margin: 0 auto;
+}
+main>ul>li{
+	width: 45.5%;
+	height:280px;
+	padding:6.6px; 
+	background-color: #fff;
+	margin-bottom: .5rem;
+}
+.list_two_img{
+	width: 100%;
+	height: 175px;
+}
+.list_two_imgN{
+	background: url("http://img01.bqstatic.com/upload/goods/201/604/1610/20160416104145_631033.jpg@300w_300h_90Q") no-repeat center;
+	background-size:100%;
+}
+.product{
+	width: 90%;
+	height: 112px;
+	margin-left: 5%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.productName{
+	color: #232b33;
+	line-height: 1.7rem;
+}
+.choose{
+	border:1px solid red;
+	border-radius: 10%;
+	font-size: 0.6rem;
+	line-height: 1.2rem;
+	color: red;
+	display: inline-block;
+}
+.color{
+	background-color: red;
+	color: #fff;
+	margin-left: 5px;
+}
+.newPrice{
+	color:#ff3800;
+	position: relative;
+	line-height: 1.2rem;
+}
+.much{
+	color:#999;
+	line-height: 1.7rem;
+}
+.oldPrice{
+	display: inline-block;
+	text-decoration: line-through;
+}
+.add{
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	border:1px solid #e0e0e0 ;
+	font-size: 2rem;
+    text-align: center;
+    line-height: 1.8rem;
+    right: 3px;
+    top: -11px;
+    background-color: #fff;
+}
+.no{
+	color: red;
+	position: absolute;
+	right: 3px;
+}
+
