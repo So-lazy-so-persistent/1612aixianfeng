@@ -11,9 +11,9 @@ $signPackage = $jssdk->GetSignPackage();
 	<title></title>
 </head>
 <body>
-<h1>调用接口</h1>
+<h1>调用接口---</h1>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-<script src="">
+<script>
 	wx.config({
     debug: true,
     appId: '<?php echo $signPackage["appId"];?>',
