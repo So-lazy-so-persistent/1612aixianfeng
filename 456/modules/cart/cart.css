@@ -20,7 +20,7 @@ body{
 	font-size: 1.15rem;
 	font-weight: 700;
 }
-.cartBox nav{
+/*.cartBox nav{
 	margin-top: 58px;
 	width: 100%;
 	background-color: #fff;
@@ -31,6 +31,13 @@ body{
 	line-height: 3rem;
 	color: red;
 	margin-left: 2rem;
+}*/
+.person{
+	margin-top: 58px;
+	margin-bottom: 1rem;
+	background: url(../../images/gang.png) repeat-x;
+	background-size: 100%;
+
 }
 .cartBox .one{
 	width: 100%;
@@ -115,6 +122,9 @@ body{
 	font-size: 1.1rem;
 	padding-left:.7rem;
 }
+.cartBox .listDiv{
+	width: 100%;
+}
 .cartBox .list{
 	height: 102px;
 	width: 100%;
@@ -136,8 +146,6 @@ body{
 	margin:18.5px 0;
 	margin-right: 1.2rem;
 	box-sizing: border-box;
-	background: url(http://img01.bqstatic.com/upload/goods/000/009/0254/0000090254_28110.jpg@120w_120h_90Q) no-repeat;
-	background-size: 100%;
 }
 .cartBox .how{
 	float: left;
@@ -172,6 +180,7 @@ body{
 	width: 100%;
 	background-color: #fff;
 	font-size: 1.1rem;
+	margin:2px 0;
 }
 .cartBox .all{
 	width: 15%;

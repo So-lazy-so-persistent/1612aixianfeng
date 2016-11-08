@@ -193,3 +193,31 @@ body{
     top: -11px;
     background-color: #fff;
 }
+.storeBox .rem{
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	border:1px solid #e0e0e0 ;
+	font-size: 2rem;
+    text-align: center;
+    line-height: 1.8rem;
+    right: 60px;
+    top: -11px;
+    background-color: #fff;
+    display: none;
+}
+.storeBox .num{
+	border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    right: 32px;
+    top: -11px;
+    color: #333;
+    background-color: #fff;
+    display: none;
+}

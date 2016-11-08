@@ -8,14 +8,39 @@ $signPackage = $jssdk->GetSignPackage();
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
 </head>
 <body>
-<button onclick="getLocation()">获取地理位置</button>
-<h1>调用接口---tat</h1>
+<div id="container"></div>
+<footer>
+		<div><a href="#home">
+			<div class="foot footer1"></div>
+			<p>首页</p></a>
+		</div>
+		<div><a href="#store">
+			<div class="foot footer2"></div>
+			<p>闪送超市</p></a>
+		</div>
+		<div><a href="#order">
+			<div class="foot footer3"></div>
+			<p>新鲜预订</p></a>
+		</div>
+		<div><a href="#cart">
+			<div class="foot footer4"></div>
+			<p>购物车</p><span class="toAdd">0</span></a>
+		</div>
+		<div><a href="#mine">
+			<div class="foot footer5"></div>
+			<p>我的</p></a>
+		</div>
+	</footer>
+<script src="lib/require.js" data-main="main"></script>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script>
-var latitude =0;
+/*var latitude =0;
 var longitude = 0;
 	function getPostion(){
 		wx.openLocation({
@@ -37,7 +62,7 @@ var longitude = 0;
 	        var accuracy = res.accuracy; // 位置精度
 			    }
 		});
-	}
+	}*/
 	
 	wx.config({
     debug: true,

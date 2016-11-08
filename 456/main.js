@@ -18,7 +18,8 @@ require.config({
 require([
 	'jquery',
 	'backbone',
-	'./router.js'
+	'./router.js',
+	'md5'
 ],
 function($,backbone){
 

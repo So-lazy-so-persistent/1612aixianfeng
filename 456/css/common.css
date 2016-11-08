@@ -21,23 +21,27 @@ footer{
 }
 .footer1{	
 	background: url(../images/home.png) no-repeat center;
-	background-size: auto 2rem;	
+	background-size:30%;
 } 
 .footer2{
 	background: url(../images/home2.png) no-repeat center;
-	background-size:33%;	
+	background-size:30%;	
 }
 .footer3{
 	background: url(../images/home5.png) no-repeat center 130%;
-	background-size: 33%;	
+	background-size: 30%;	
 }
 .footer4{
 	background: url(../images/home3.png) no-repeat center;
-	background-size:33%;	
+	background-size:30%;
+	position: relative;
 }
 .footer5{
 	background: url(../images/home4.png) no-repeat center;
-	background-size:33%;	
+	background-size:30%;	
+}
+footer div:nth-of-type(4){
+	position: relative;
 }
 footer a{
 	display: block;
@@ -50,4 +54,19 @@ footer>div>a>p{
 	text-align: center;
 	font-size: 1rem;
 	color: #777;
+}
+.toAdd{
+	border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    position: absolute;
+    border: 1px solid #e0e0e0;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    right: 3px;
+    top: 1px;
+    color: #fff;
+    background-color: #f40;
+    display: none;
 }

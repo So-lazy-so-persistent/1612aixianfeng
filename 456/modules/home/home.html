@@ -326,14 +326,17 @@
 
 <script type="text/html" id="homeList">
 	<%for(var c in data){%>
-		<li>
+		<li id="<%=md5(JSON.stringify(data[c]))%>">
 			<div class="list_two_img" style="background: url(<%=data[c].img%>) no-repeat center ;background-size: 100%;"></div>
 			<div class="product">
 				<p class="productName"><%=data[c].name%></p>
 				<span class="choose">精选</span><span class="choosese color"><%=data[c].pm_desc%></span>
 				<p class="much"><%=data[c].specifics%></p>
-				<p class="newPrice"><%=data[c].price%><span class="much oldPrice"><%=data[c].market_price%></span><span class="add">+</span></p>
+				<p class="newPrice"><%=data[c].price%><span class="much oldPrice"><%=data[c].market_price%></span><span class="rem">-</span><span class="num">0</span><span class="add">+</span></p>
 			</div>
+			<textarea style="display: none;">
+				<%=JSON.stringify(data[c])%>
+			</textarea>
 		</li>
 	<%}%>
 </script>

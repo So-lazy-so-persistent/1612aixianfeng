@@ -23,22 +23,13 @@
 		<div class="two">
 			
 		</div>
-		<!-- <div class="main1">
-			<div class="photo"></div>
-			<div class="word">
-				<p>爱鲜蜂.百香果</p>
-				<p>120g 2粒/袋</p>
-				<p><span><span>￥</span>6.9</span></p>
-				<h3 class="h"></h3>
-			</div>
-		</div> -->
 		
 	</main>
 </div>	
 
 <script type="text/html" id="orderList">
 	<%for(var e in product){%>
-		<div class="main1">
+		<div class="main1" id="<%=md5(JSON.stringify(product[e]))%>">
 			<div class="photo" style="background: url('<%=product[e].img%>') no-repeat center; background-size: 80%;"></div>
 			<div class="word">
 				<p><%=product[e].name%></p>
@@ -46,6 +37,9 @@
 				<p><span><span>￥</span><%=product[e].price%></span></p>
 				<h3 class="h"></h3>
 			</div>
+			<textarea style="display: none;">
+				<%=JSON.stringify(product[e])%>
+			</textarea>
 		</div>
 	<%}%>
 </script>
